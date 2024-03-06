@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar{
+    background-color: #DAE2FF;
+    color: #000;
+}
+
+.nav-logo{
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+
+.nav-link{
+    font-weight: bold;
+}
+
+
+.navbar .dropdown .dropdown-toggle{
+     background-color: transparent!important;
+     color: #333;
+     border: 0!important;
+     text-transform: capitalize;
+}
+
+
+.navbar .menu{
+    width: 30vw;
+}
+
+@media (max-width: 767px) {
+    .navbar .menu{
+        width: 80vw;
+    }
+}
